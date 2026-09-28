@@ -3561,3 +3561,121 @@ body.register-mode .security-item strong {
         min-height: 72px !important;
     }
 }
+
+/* ===== REGISTER HERO FIX ===== */
+
+body.register-mode .register-hero {
+    min-height: 255px !important;
+    height: 255px !important;
+    padding: 0 !important;
+}
+
+body.register-mode .register-hero h1 {
+    margin: 0 !important;
+    position: absolute !important;
+    top: 105px !important;
+    left: 15px !important;
+    right: 15px !important;
+    text-align: center !important;
+    font-size: 27px !important;
+    z-index: 5 !important;
+}
+
+body.register-mode .register-hero p {
+    position: absolute !important;
+    top: 150px !important;
+    left: 15px !important;
+    right: 15px !important;
+    text-align: center !important;
+    margin: 0 !important;
+    z-index: 5 !important;
+}
+
+/* HERO ICONS */
+body.register-mode .register-gift {
+    width: 65px !important;
+    top: 45px !important;
+    left: 7% !important;
+    z-index: 2 !important;
+}
+
+body.register-mode .register-shield {
+    width: 92px !important;
+    top: 28px !important;
+    z-index: 3 !important;
+}
+
+body.register-mode .register-wallet {
+    width: 65px !important;
+    top: 48px !important;
+    right: 7% !important;
+    z-index: 2 !important;
+}
+
+
+/* ===== FORM CARD ===== */
+
+body.register-mode .register-form-section {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+}
+
+body.register-mode .register-card {
+    margin-top: 0 !important;
+}
+
+
+/* ===== INPUT TEXT FIX ===== */
+
+body.register-mode .register-input {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+    font-size: 15px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+}
+
+body.register-mode .register-input::placeholder {
+    opacity: 1 !important;
+}
+
+
+/* ===== MOBILE ===== */
+
+@media (max-width:600px) {
+
+    body.register-mode .register-hero {
+        height: 250px !important;
+        min-height: 250px !important;
+    }
+
+    body.register-mode .register-hero h1 {
+        top: 105px !important;
+        font-size: 25px !important;
+    }
+
+    body.register-mode .register-hero p {
+        top: 150px !important;
+        font-size: 13px !important;
+    }
+
+    body.register-mode .register-gift {
+        width: 60px !important;
+        top: 45px !important;
+    }
+
+    body.register-mode .register-shield {
+        width: 88px !important;
+        top: 30px !important;
+    }
+
+    body.register-mode .register-wallet {
+        width: 60px !important;
+        top: 48px !important;
+    }
+
+    body.register-mode .register-input {
+        padding-left: 68px !important;
+        padding-right: 65px !important;
+    }
+}
