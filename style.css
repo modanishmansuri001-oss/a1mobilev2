@@ -3259,3 +3259,305 @@ z-index: 10;
         height: 35px;
     }
 }
+
+/* =====================================================
+   A1 REWARDS — REGISTER PAGE FINAL MOBILE/DESKTOP LAYOUT
+   ===================================================== */
+
+body.register-mode .register-main {
+    width: 100%;
+    background: #f4f8ff;
+    overflow: hidden;
+}
+
+/* ---------- HERO ---------- */
+
+body.register-mode .register-hero {
+    min-height: 270px !important;
+    padding: 25px 20px 35px !important;
+    background: #edf6ff !important;
+    position: relative;
+    overflow: hidden;
+}
+
+body.register-mode .register-hero-content {
+    position: relative;
+    z-index: 2;
+}
+
+body.register-mode .register-hero h1 {
+    margin-top: 115px !important;
+    font-size: 30px !important;
+    line-height: 1.15 !important;
+}
+
+body.register-mode .register-hero p {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    margin-top: 10px !important;
+}
+
+/* Hero decorations */
+body.register-mode .register-gift {
+    width: 72px !important;
+    position: absolute !important;
+    left: 7% !important;
+    top: 48px !important;
+}
+
+body.register-mode .register-shield {
+    width: 105px !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 38px !important;
+    transform: translateX(-50%) !important;
+}
+
+body.register-mode .register-wallet {
+    width: 72px !important;
+    position: absolute !important;
+    right: 7% !important;
+    top: 52px !important;
+}
+
+
+/* ---------- FORM SECTION ---------- */
+
+body.register-mode .register-form-section {
+    margin-top: 0 !important;
+    padding: 0 18px 35px !important;
+    background: #f4f8ff !important;
+    position: relative;
+    z-index: 5;
+}
+
+body.register-mode .register-card {
+    width: 100% !important;
+    max-width: 680px !important;
+    margin: 0 auto !important;
+    padding: 30px 38px !important;
+    border-radius: 28px !important;
+    background: #fff !important;
+    box-shadow: 0 8px 30px rgba(30, 90, 150, 0.10) !important;
+}
+
+
+/* ---------- FORM TITLE ---------- */
+
+body.register-mode .register-card h2 {
+    font-size: 25px !important;
+    margin-bottom: 8px !important;
+}
+
+body.register-mode .register-card > p {
+    font-size: 14px !important;
+    margin-bottom: 25px !important;
+}
+
+
+/* ---------- LABELS ---------- */
+
+body.register-mode .register-input-group {
+    margin-bottom: 18px !important;
+}
+
+body.register-mode .register-input-group label {
+    display: block !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    margin-bottom: 8px !important;
+}
+
+
+/* ---------- INPUTS ---------- */
+
+body.register-mode .register-input {
+    width: 100% !important;
+    height: 62px !important;
+    min-height: 62px !important;
+    border-radius: 16px !important;
+    font-size: 15px !important;
+    padding-left: 60px !important;
+    padding-right: 52px !important;
+    box-sizing: border-box !important;
+}
+
+body.register-mode .register-input-icon {
+    width: 44px !important;
+    height: 44px !important;
+    left: 9px !important;
+    border-radius: 12px !important;
+}
+
+body.register-mode .register-eye {
+    right: 15px !important;
+}
+
+
+/* ---------- TERMS ---------- */
+
+body.register-mode .terms-row {
+    margin-top: 4px !important;
+    margin-bottom: 22px !important;
+    font-size: 13px !important;
+    line-height: 1.5 !important;
+}
+
+body.register-mode .terms-row input {
+    width: 17px !important;
+    height: 17px !important;
+    margin-right: 8px !important;
+}
+
+
+/* ---------- BENEFITS ---------- */
+
+body.register-mode .register-benefits {
+    margin: 5px 0 25px !important;
+    padding: 12px 5px !important;
+    min-height: 80px !important;
+    border-radius: 18px !important;
+}
+
+body.register-mode .register-benefit {
+    font-size: 12px !important;
+}
+
+body.register-mode .register-benefit strong {
+    font-size: 13px !important;
+}
+
+
+/* ---------- CREATE ACCOUNT ---------- */
+
+body.register-mode .create-account-btn {
+    width: 100% !important;
+    height: 62px !important;
+    border-radius: 32px !important;
+    font-size: 16px !important;
+}
+
+
+/* ---------- OR ---------- */
+
+body.register-mode .register-or {
+    margin: 25px 0 !important;
+}
+
+
+/* ---------- ALREADY ACCOUNT ---------- */
+
+body.register-mode .already-account {
+    min-height: 70px !important;
+    padding: 12px 15px !important;
+    border-radius: 18px !important;
+}
+
+body.register-mode .login-now-btn {
+    height: 44px !important;
+    padding: 0 20px !important;
+    border-radius: 22px !important;
+}
+
+
+/* ---------- SECURITY BAR ---------- */
+
+body.register-mode .register-security-bar {
+    width: 100% !important;
+    min-height: 76px !important;
+    padding: 10px 8px !important;
+    background: #fff !important;
+}
+
+body.register-mode .security-item {
+    font-size: 11px !important;
+}
+
+body.register-mode .security-item strong {
+    font-size: 12px !important;
+}
+
+
+/* =====================================================
+   MOBILE
+   ===================================================== */
+
+@media (max-width: 600px) {
+
+    body.register-mode .register-hero {
+        min-height: 245px !important;
+        padding: 18px 14px 30px !important;
+    }
+
+    body.register-mode .register-hero h1 {
+        margin-top: 105px !important;
+        font-size: 26px !important;
+    }
+
+    body.register-mode .register-hero p {
+        font-size: 13px !important;
+    }
+
+    body.register-mode .register-gift {
+        width: 62px !important;
+        left: 5% !important;
+        top: 45px !important;
+    }
+
+    body.register-mode .register-shield {
+        width: 92px !important;
+        top: 35px !important;
+    }
+
+    body.register-mode .register-wallet {
+        width: 62px !important;
+        right: 5% !important;
+        top: 48px !important;
+    }
+
+    body.register-mode .register-form-section {
+        padding: 0 12px 25px !important;
+    }
+
+    body.register-mode .register-card {
+        padding: 25px 17px !important;
+        border-radius: 24px !important;
+    }
+
+    body.register-mode .register-card h2 {
+        font-size: 23px !important;
+    }
+
+    body.register-mode .register-input {
+        height: 58px !important;
+        min-height: 58px !important;
+        border-radius: 14px !important;
+    }
+
+    body.register-mode .register-input-group label {
+        font-size: 14px !important;
+        margin-bottom: 7px !important;
+    }
+
+    body.register-mode .register-benefits {
+        min-height: 76px !important;
+    }
+
+    body.register-mode .create-account-btn {
+        height: 58px !important;
+    }
+
+    body.register-mode .already-account {
+        flex-direction: column !important;
+        gap: 10px !important;
+        text-align: center !important;
+    }
+
+    body.register-mode .login-now-btn {
+        width: 100% !important;
+    }
+
+    body.register-mode .register-security-bar {
+        min-height: 72px !important;
+    }
+}
