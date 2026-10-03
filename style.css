@@ -2418,3 +2418,23 @@ z-index:10;
     color: #6b7280;
     font-weight: 500;
 }
+/* REGISTER HERO Image VISUAL */
+
+.register-hero {
+    width: 100%;
+    height: 105px;
+    background: #eff6ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.register-hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    display: block;
+}
