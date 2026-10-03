@@ -2477,3 +2477,26 @@ z-index:10;
     box-sizing: border-box;
     box-shadow: 0 8px 25px rgba(30, 80, 150, 0.08);
 }
+
+/* =====  FULL NAME ICON ===== */
+
+.input-icon {
+    width: 54px;
+    height: 54px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #edf4ff;
+    border-radius: 12px;
+}
+
+.input-icon svg {
+    width: 25px;
+    height: 25px;
+    fill: none;
+    stroke: #1769e8;
+    stroke-width: 2.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
