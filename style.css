@@ -2679,3 +2679,81 @@ z-index:10;
     flex-wrap: wrap;
   }
 }
+/* A1 REWARDS - REGISTER PAGE FIX */
+
+.register-announcement {
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.register-card {
+  padding: 20px 16px;
+}
+
+.register-card .form-group {
+  margin-bottom: 16px;
+}
+
+.register-card .form-group label {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.register-card .input-box {
+  min-height: 54px;
+  border-radius: 12px;
+}
+
+.register-card .input-icon {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+}
+
+.register-card .register-benefits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.register-card .register-benefit {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+}
+
+.register-card .register-submit {
+  width: 100%;
+  min-height: 60px;
+  border-radius: 40px;
+}
+
+.register-security-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  gap: 6px;
+  padding: 14px 8px;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(30, 80, 150, 0.10);
+}
+
+.register-security-bar > div {
+  flex: 1;
+  min-width: 0;
+  text-align: center;
+  font-size: 10px;
+}
+
+.register-security-bar strong,
+.register-security-bar small {
+  display: block;
+}
+
+.register-security-bar small {
+  font-size: 9px;
+}
