@@ -2692,7 +2692,7 @@ z-index:10;
 }
 
 .register-card .form-group {
-  margin-bottom: 16px;
+  margin-bottom: 10px;
 }
 
 .register-card .form-group label {
@@ -2706,8 +2706,8 @@ z-index:10;
 }
 
 .register-card .input-icon {
-  width: 54px;
-  height: 54px;
+  width: 44px;
+  height: 44px;
   flex-shrink: 0;
 }
 
@@ -2715,7 +2715,7 @@ z-index:10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 8px;
+  gap: 4px;
 }
 
 .register-card .register-benefit {
@@ -2726,7 +2726,7 @@ z-index:10;
 
 .register-card .register-submit {
   width: 100%;
-  min-height: 60px;
+  min-height: 46px;
   border-radius: 40px;
 }
 
