@@ -2688,7 +2688,7 @@ z-index:10;
 }
 
 .register-card {
-  padding: 20px 16px;
+  padding: 12px;
 }
 
 .register-card .form-group {
@@ -2701,7 +2701,7 @@ z-index:10;
 }
 
 .register-card .input-box {
-  min-height: 54px;
+  min-height: 44px;
   border-radius: 12px;
 }
 
@@ -2715,7 +2715,9 @@ z-index:10;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 4px;
+   gap: 4px;
+padding: 8px 6px;
+margin: 10px 0;
 }
 
 .register-card .register-benefit {
