@@ -2407,15 +2407,19 @@ z-index:10;
 
 /* LOGO */
 
+
 .register-brand {
-    position: static;
-    transform: none;
+    position: absolute;
+    left: 14%;
+    top: 50%;
+    transform: translateY(-50%);
     text-align: left;
     line-height: 1.1;
-    margin-left:60px;
+    margin: 0;
     white-space: nowrap;
     flex-shrink: 0;
 }
+
 
 .register-brand-name {
     font-size: 15px;
