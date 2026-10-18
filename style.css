@@ -2409,9 +2409,9 @@ z-index:10;
 /* CENTER LOGO */
 
 .register-brand {
-    position: absolute;
+    position:static ;
     left: 50%;
-    transform: translateX(-50%);
+    transform: none;
     text-align: center;
     line-height: 1.1;
     margin: 0;
