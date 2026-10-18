@@ -2380,7 +2380,7 @@ z-index:10;
     background: #ffffff;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+ justify-content: flex-start;
     padding: 0 18px;
     box-sizing: border-box;
     border-bottom: 1px solid #e5e7eb;
