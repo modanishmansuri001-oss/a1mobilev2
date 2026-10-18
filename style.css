@@ -2412,7 +2412,7 @@ z-index:10;
     transform: none;
     text-align: left;
     line-height: 1.1;
-    margin-left: clamp(24px, 7vw, 100px);
+    margin-left:12px;
     white-space: nowrap;
     flex-shrink: 0;
 }
