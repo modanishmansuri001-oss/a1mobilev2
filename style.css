@@ -2390,15 +2390,15 @@ z-index:10;
 /* BACK BUTTON */
 
 .register-back {
-    width: 53px;
-    height: 53px;
+    width: 36px;
+    height: 36px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     border: 0;
     background: transparent;
-    font-size: 25px;
+    font-size: 30px;
     color: #111827;
     cursor: pointer;
     padding: 0;
