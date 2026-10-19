@@ -2390,8 +2390,8 @@ z-index:10;
 /* BACK BUTTON */
 
 .register-back {
-    width: 40px;
-    height: 40px;
+    width: 53px;
+    height: 53px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
