@@ -2410,7 +2410,7 @@ z-index:10;
 
 .register-brand {
     position: absolute;
-    left: 15%;
+    left: 12%;
     top: 50%;
     transform: translateY(-50%);
     text-align: left;
@@ -2422,7 +2422,7 @@ z-index:10;
 
 
 .register-brand-name {
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 800;
     color: #111111;
     letter-spacing: 0;
@@ -2430,7 +2430,7 @@ z-index:10;
 
 .register-brand-powered {
     margin-top: 4px;
-    font-size: 9px;
+    font-size: 7px;
     color: #6b7280;
     font-weight: 600;
     line-height: 1.1;
