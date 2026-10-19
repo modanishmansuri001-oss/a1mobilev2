@@ -2458,24 +2458,26 @@ z-index:10;
  
 /* REGISTER HERO Image VISUAL — Gift Image */
 
+
 .register-hero {
     width: 100%;
-    height: auto;
-    background: transparent;
+    height: 220px;
+    background: #eff6ff;
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: visible;
+    overflow: hidden;
     box-sizing: border-box;
 }
 
 .register-hero img {
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: contain;
     object-position: center;
     display: block;
 }
+
 /* ===== CREATE YOUR ACCOUNT HEADING ===== */
 
 .register-title {
