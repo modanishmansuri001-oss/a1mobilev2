@@ -2529,19 +2529,19 @@ z-index: 5;
 /* =====  FULL NAME ICON ===== */
 
 .input-icon {
-    width: 54px;
-    height: 54px;
-    margin-left: 5px;
+    width: 44px;
+    height: 44px;
+    margin-left: 0px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #edf4ff;
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .input-icon svg {
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     fill: none;
     stroke: #1769e8;
     stroke-width: 2.2;
@@ -2555,9 +2555,9 @@ z-index: 5;
 
 .register-card .form-group label {
   display: block;
-  font-size: 10px;
-  font-weight: 700;
-  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 6px;
   color: #111827;
 }
 
