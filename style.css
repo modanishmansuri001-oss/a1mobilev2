@@ -2467,7 +2467,7 @@ z-index:10;
     align-items: center;
     justify-content: center;
    margin-top: -55px;
-    overflow: visible;
+    overflow: hidden;
     box-sizing: border-box;
 }
 
