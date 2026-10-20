@@ -2520,6 +2520,8 @@ z-index:10;
     border-radius: 28px;
    margin-top: -40px;
     padding: 12px;
+   position: relative;
+z-index: 5;
     box-sizing: border-box;
     box-shadow: 0 8px 25px rgba(30, 80, 150, 0.08);
 }
