@@ -2377,7 +2377,11 @@ z-index:10;
 .register-header {
     width: 100%;
     height: 49px;
-    background: #ffffff;
+    background: linear-gradient(
+    to bottom,
+    #edf5ff 0%,
+    #ffffff 75%
+);
     display: flex;
     align-items: center;
     justify-content: space-between;
