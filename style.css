@@ -2565,7 +2565,7 @@ z-index: 5;
   display: flex;
   align-items: center;
   width: 100%;
-  min-height: 44px;
+  min-height: 36px;
   border: 1px solid #dfe4ee;
   border-radius: 12px;
   background: #fff;
