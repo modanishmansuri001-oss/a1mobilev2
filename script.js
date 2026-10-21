@@ -240,7 +240,23 @@ if (loginRegisterBtn) {
 
 }
 
+/* ==========================================
+   REGISTER PAGE — PASSWORD SHOW / HIDE
+========================================== */
 
+function toggleRegisterPassword(inputId, button) {
+    const input = document.getElementById(inputId);
+
+    if (!input) return;
+
+    if (input.type === "password") {
+        input.type = "text";
+        button.setAttribute("aria-label", "Hide password");
+    } else {
+        input.type = "password";
+        button.setAttribute("aria-label", "Show password");
+    }
+}
 /* ==========================================
    START HOME
 ========================================== */
