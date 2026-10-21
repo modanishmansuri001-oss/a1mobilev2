@@ -2570,6 +2570,7 @@ z-index: 5;
   border-radius: 12px;
   background: #fff;
   overflow: hidden;
+   padding: 0;
   box-sizing: border-box;
 }
 
