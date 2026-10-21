@@ -2753,8 +2753,8 @@ z-index: 5;
 
 
 .register-card .input-box {
-    height: 30px;
-    min-height: 30px;
+    height: 32px;
+    min-height: 32px;
     border-radius: 10px;
 }
 
