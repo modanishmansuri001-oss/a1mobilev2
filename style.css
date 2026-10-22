@@ -2604,7 +2604,8 @@ z-index: 5;
   align-items: flex-start;
   gap: 10px;
   margin: 18px 0;
-  font-size: 10px;
+  font-size: 8px;
+   font-weight: 600;
   line-height: 1.6;
 }
 
@@ -2613,7 +2614,7 @@ z-index: 5;
   height: 18px;
   flex-shrink: 0;
   accent-color: #2563eb;
-  margin-top: 3px;
+  margin-top: 0px;
 }
 
 .register-card .register-benefits {
