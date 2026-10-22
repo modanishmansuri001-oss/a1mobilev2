@@ -246,16 +246,24 @@ if (loginRegisterBtn) {
 
 function toggleRegisterPassword(inputId, button) {
     const input = document.getElementById(inputId);
-
     if (!input) return;
 
-    if (input.type === "password") {
-        input.type = "text";
-        button.setAttribute("aria-label", "Hide password");
-    } else {
-        input.type = "password";
-        button.setAttribute("aria-label", "Show password");
-    }
+    const showing = input.type === "password";
+
+    input.type = showing ? "text" : "password";
+    button.setAttribute(
+        "aria-label",
+        showing ? "Hide password" : "Show password"
+    );
+
+    button.innerHTML = showing
+        ? `<svg viewBox="0 0 24 24" aria-hidden="true">
+             <path d="M3 3l18 18M10.6 10.6a2 2 0 0 0 2.8 2.8M9.9 5.2A11 11 0 0 1 12 5c5 0 9 7 9 7a15 15 0 0 1-3.1 3.7M6.2 6.2C3.8 7.8 3 12 3 12s3 7 9 7c1 0 2-.2 2.9-.6"/>
+           </svg>`
+        : `<svg viewBox="0 0 24 24" aria-hidden="true">
+             <path d="M3 12s3-7 9-7 9 7 9 7-3 7-9 7-9-7-9-7z"/>
+             <circle cx="12" cy="12" r="3"/>
+           </svg>`;
 }
 /* ==========================================
    START HOME
