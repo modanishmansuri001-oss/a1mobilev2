@@ -2635,17 +2635,7 @@ z-index: 5;
   text-align: center;
   font-size: 12px;
 }
-.register-card .register-benefit span svg {
-  width: 30px;
-  height: 30px;
-  display: block;
-  margin: 0 auto 8px;
-  fill: none;
-  stroke: #2563eb;
-  stroke-width: 2;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-}
+
 .register-card .register-benefit strong,
 .register-card .register-benefit small {
   display: block;
