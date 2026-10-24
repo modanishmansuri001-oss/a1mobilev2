@@ -2794,9 +2794,13 @@ margin: 10px 0;
 }
 
 .register-card .register-benefit {
-  flex: 1;
-  min-width: 0;
-  text-align: center;
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 6px;
+    text-align: left;
 }
 
 .register-card .register-submit {
