@@ -2828,9 +2828,12 @@ text-align: left;
   font-size: 10px;
 }
 
-.register-security-bar strong,
+.register-security-bar strong {
+    display: block;
+}
+
 .register-security-bar small {
-  display: block;
+    display: block;
 }
 
 .register-security-bar small {
