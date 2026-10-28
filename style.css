@@ -2796,11 +2796,11 @@ margin: 10px 0;
     flex: 1;
     min-width: 0;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 align-items: center;
 justify-content: center;
 gap: 6px;
-text-align: center;
+text-align: left;
 }
 
 .register-card .register-submit {
