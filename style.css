@@ -2813,7 +2813,7 @@ text-align: left;
   display: flex;
   flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
   gap: 12px;
   padding: 10px 8px;
   background: #fff;
