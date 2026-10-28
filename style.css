@@ -2797,10 +2797,11 @@ margin: 10px 0;
     flex: 1;
     min-width: 0;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
-    gap: 6px;
-    text-align: left;
+    justify-content: center;
+    gap: 4px;
+    text-align: center;
 }
 
 .register-card .register-submit {
