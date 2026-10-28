@@ -2786,7 +2786,7 @@ border-radius: 10px 0 0 10px;
 .register-card .register-benefits {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
    gap: 4px;
 padding: 12px 5px;
 margin: 10px 0;
@@ -2814,7 +2814,7 @@ text-align: left;
   flex-wrap: nowrap;
   align-items: center;
   justify-content: space-around;
-  gap: 6px;
+  gap: 12px;
   padding: 10px 8px;
   background: #fff;
   border-radius: 18px;
