@@ -2822,10 +2822,10 @@ text-align: left;
 }
 
 .register-security-bar > div {
-  flex: 1;
-  min-width: 0;
-  text-align: center;
-  font-size: 10px;
+    flex: 1;
+    min-width: 0;
+    text-align: left;
+    font-size: 10px;
 }
 
 .register-security-bar strong {
