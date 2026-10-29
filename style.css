@@ -2633,7 +2633,6 @@ z-index: 5;
     flex: 1;
     min-width: 0;
     display: flex;
-   flex-wrap: wrap;
     align-items: center;
     justify-content: flex-start;
     gap: 6px;
