@@ -2826,6 +2826,8 @@ text-align: left;
     min-width: 0;
     text-align: left;
     font-size: 10px;
+   display: flex;
+flex-direction: column;
 }
 
 .register-security-bar strong {
